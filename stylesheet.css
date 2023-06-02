@@ -64,40 +64,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
   margin-left: -640px;
 }
 
-.slider {
-	width: 300px;
-    height: 700px;
-    overflow: hidden;
-    margin: 0 auto;
-  
-  }
-  .slider-item {
-	width: 300px;
-	float: left;
-  }
-  .slider-item img{
-	max-width: 100%;
-	height: auto;
-  }
-  .slider-inner {
-	width: 300%;
-	animation: slider 10s infinite ease;
-  }
-  
-  @keyframes slider {
-	  0% {
-	  transform: translateX(0);
-	  }
-	  33% {
-	  transform: translateX(-300px);
-	  }
-	  66% {
-	  transform: translateX(-600px);
-	  }
-	  100% {
-	  transform: translateX(0);
-	  }
-  }
+
 
 
 /* フッター
@@ -151,6 +118,31 @@ section h2 span {
 	padding-bottom: 80px;
 }
 
+.innerS img{
+	margin: auto;
+  display: block;
+}
+
+.innerS img{
+	width: 30%;
+  margin: auto;
+  display: block;
+}
+
+
+
+.iconimg img{
+	margin: auto;
+  display: block;
+	
+}
+
+.iconimg img{
+	width: 30%;
+  margin: auto;
+  display: block;
+	
+}
 
 /* SEC02 Gallery
 ------------------------------------------------------------*/
@@ -162,16 +154,51 @@ section h2 span {
 	display: none;
 }
 
-#gallery li{
+#gallery2 li{
 	float: left;
 	width: calc(100%/3);
 	line-height: 0;
 }
 
-#gallery img{
+#gallery2 img{
 	width: 100%;
 	height: auto;
 }
+
+.slider {
+	width: 300px;
+    height: 700px;
+    overflow: hidden;
+    margin: 0 auto;
+  
+  }
+  .slider-item {
+	width: 300px;
+	float: left;
+  }
+  .slider-item img{
+	max-width: 100%;
+	height: auto;
+  }
+  .slider-inner {
+	width: 300%;
+	animation: slider 10s infinite ease;
+  }
+  
+  @keyframes slider {
+	  0% {
+	  transform: translateX(0);
+	  }
+	  33% {
+	  transform: translateX(-300px);
+	  }
+	  66% {
+	  transform: translateX(-600px);
+	  }
+	  100% {
+	  transform: translateX(0);
+	  }
+  }
 
 
 /* SEC03 PROJECT
