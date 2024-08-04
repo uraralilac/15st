@@ -58,9 +58,9 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 #mainImg img{
 	position: absolute;
   left: 50%;
-	max-width: 768px;
-  width: 768px;
-  height: 400px;
+	max-width: 480px;
+  width: 480px;
+  height: 250px;
   margin-left: -640px;
 }
 
