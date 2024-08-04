@@ -57,6 +57,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 #mainImg img{
+	text-align : center
 	position: absolute;
   left: 50%;
 	max-width: 1000px;
