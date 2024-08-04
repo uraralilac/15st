@@ -55,6 +55,20 @@ a:active, a:focus,input:active, input:focus{outline:0;}
   height: 528px;
 }
 
+@media screen and (max-width: 768px) {
+    #mainImg{
+        background-color: black;
+         color:green;
+     }
+ }
+ 
+ @media screen and (max-width: 480px) {
+    #mainImg{
+        background-color: black;
+         color:red;
+     }
+ }
+
 #mainImg img{
 	position: absolute;
   left: 50%;
