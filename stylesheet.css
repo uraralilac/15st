@@ -66,33 +66,21 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 
-
-
-/* フッター
-------------------------------------------------------------*/
-#footer{
-	clear: both;
-	padding: 50px 10px 50px 0;
-	text-align: center;
-	font-size: 12px;
-}
-
-
 /* 共通
 ------------------------------------------------------------*/
 
 img{
 	max-width: 100%;
-	height: auto;
+	height: 528px;
 }
 
 section{
 	clear:both;
-	padding-top: 70px;
+	padding-top: 10px;
 }
 
 section h2{
-	font-family: 'Pacifico', cursive;
+	font-family: sans-serif;
 	width: 60%;
 	margin: 0 auto 40px;
 	font-size: 22px;
@@ -114,6 +102,7 @@ section h2 span {
 }
 
 .innerS{
+	font-family: sans-serif;
 	width: 60%;
 	margin: 0 auto;
 	padding-bottom: 80px;
@@ -270,6 +259,14 @@ section h2 span {
 	border: 0;
 }
 
+/* フッター
+------------------------------------------------------------*/
+#footer{
+	clear: both;
+	padding: 50px 10px 50px 0;
+	text-align: center;
+	font-size: 12px;
+}
 
 
 /* RESPONSIVE 設定
