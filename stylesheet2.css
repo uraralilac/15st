@@ -1,0 +1,198 @@
+element.style {
+}
+:root {
+    --jp-carousel-primary-color: #fff;
+    --jp-carousel-primary-subtle-color: #999;
+    --jp-carousel-bg-color: #000;
+    --jp-carousel-bg-faded-color: #222;
+    --jp-carousel-border-color: #3a3a3a;
+}
+:root {
+    --swiper-navigation-size: 44px;
+}
+:root {
+    --swiper-theme-color: #007aff;
+}
+:root, #editor .editor-styles-wrapper {
+    --global--color-background: #f7e3e3;
+    --global--color-foreground: #8b8482;
+    --global--color-foreground-low-contrast: hsl( 13.333333333333,6.4748201438849%,64.509803921569%);
+    --global--color-foreground-high-contrast: hsl( 13.333333333333,6.4748201438849%,44.509803921569%);
+    --global--color-primary: #8d8688;
+    --global--color-primary-hover: hsl( 342.85714285714,4.9645390070922%,65.294117647059%);
+    --global--color-secondary: #b6cdd7;
+    --global--color-secondary-hover: hsl( 198.18181818182,15.348837209302%,94.313725490196%);
+    --global--color-tertiary: #fafbf6;
+}
+:root {
+    --font-headings: Bodoni Moda;
+    --font-base: Overpass;
+    --font-headings-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    --font-base-default: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+@media only screen and (min-width: 482px)
+:root {
+    --responsive--alignrightleft-width: calc(50% - (.5*(100vw - var(--responsive--aligndefault-width))));
+}
+:root {
+    --responsive--spacing-horizontal: calc(2*var(--global--spacing-horizontal));
+    --responsive--aligndefault-width: calc(100vw - var(--responsive--spacing-horizontal));
+    --responsive--alignwide-width: calc(100vw - var(--responsive--spacing-horizontal));
+    --responsive--alignfull-width: 100%;
+    --responsive--alignwide-width-multiplier: calc(16*var(--global--spacing-horizontal));
+    --responsive--alignrightleft-width: var(--global--spacing-horizontal);
+}
+:root {
+    --global--font-primary: var(--font-headings,'Playfair Display',Georgia,Times,serif);
+    --global--font-secondary: var(--font-base,'Fira Sans',Helvetica,Arial,sans-serif);
+    --global--font-code: monospace,monospace;
+    --global--font-ui: var(--font-base,var(--global--font-secondary));
+    --global--font-size-root: 18px;
+    --global--font-size-ratio: 1.2;
+    --global--font-size-base: 1em;
+    --global--font-size-xs: 14px;
+    --global--font-size-sm: 16px;
+    --global--font-size-md: 18px;
+    --global--font-size-lg: 24px;
+    --global--font-size-xl: 28px;
+    --global--font-size-xxl: 32px;
+    --global--font-size-xxxl: 48px;
+    --global--letter-spacing: normal;
+    --global--font-weight: 400;
+    --global--line-height-base: 1;
+    --global--line-height-body: 1.7;
+    --global--line-height-heading: 1.3;
+    --global--color-primary: #000;
+    --global--color-secondary: #3c8067;
+    --global--color-primary-hover: var(--global--color-secondary);
+    --global--color-secondary-hover: #336d58;
+    --global--color-black: #000;
+    --global--color-white: #fff;
+    --global--color-foreground: #333;
+    --global--color-foreground-low-contrast: #444;
+    --global--color-foreground-high-contrast: #000;
+    --global--color-background: #fff;
+    --global--color-tertiary: #fafbf6;
+    --global--color-background-dark: #ddd;
+    --global--color-border: #efefef;
+    --global--color-text-selection: #ebf2f0;
+    --global--color-alert-success: #9acd32;
+    --global--color-alert-info: skyblue;
+    --global--color-alert-warning: gold;
+    --global--color-alert-error: salmon;
+    --global--spacing-unit: 20px;
+    --global--spacing-measure: unset;
+    --global--spacing-horizontal: 25px;
+    --global--spacing-vertical: 30px;
+    --global--elevation: 1px 1px 3px 0px rgba(0,0,0,.2);
+    --global--border-radius-sm: 9px;
+    --global--border-radius-md: 13.5px;
+    --global--border-radius-lg: 18px;
+    --global--border-radius-pill: 180px;
+    --global--border-radius-none: 0;
+    --form--font-family: var(--global--font-secondary);
+    --form--font-size: var(--global--font-size-md);
+    --form--line-height: var(--global--line-height-body);
+Show All Properties (164 more)
+}
+:root {
+    --wp--preset--aspect-ratio--square: 1;
+    --wp--preset--aspect-ratio--4-3: 4/3;
+    --wp--preset--aspect-ratio--3-4: 3/4;
+    --wp--preset--aspect-ratio--3-2: 3/2;
+    --wp--preset--aspect-ratio--2-3: 2/3;
+    --wp--preset--aspect-ratio--16-9: 16/9;
+    --wp--preset--aspect-ratio--9-16: 9/16;
+    --wp--preset--color--black: #000000;
+    --wp--preset--color--cyan-bluish-gray: #abb8c3;
+    --wp--preset--color--white: #ffffff;
+    --wp--preset--color--pale-pink: #f78da7;
+    --wp--preset--color--vivid-red: #cf2e2e;
+    --wp--preset--color--luminous-vivid-orange: #ff6900;
+    --wp--preset--color--luminous-vivid-amber: #fcb900;
+    --wp--preset--color--light-green-cyan: #7bdcb5;
+    --wp--preset--color--vivid-green-cyan: #00d084;
+    --wp--preset--color--pale-cyan-blue: #8ed1fc;
+    --wp--preset--color--vivid-cyan-blue: #0693e3;
+    --wp--preset--color--vivid-purple: #9b51e0;
+    --wp--preset--color--primary: #8d8688;
+    --wp--preset--color--secondary: #b6cdd7;
+    --wp--preset--color--foreground: #8b8482;
+    --wp--preset--color--tertiary: #fafbf6;
+    --wp--preset--color--background: #f7e3e3;
+    --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);
+    --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);
+    --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);
+    --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);
+    --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);
+    --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);
+    --wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);
+    --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);
+    --wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);
+    --wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);
+    --wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);
+    --wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);
+    --wp--preset--gradient--hard-diagonal: linear-gradient(to bottom right, #b6cdd7 49.9%, #fafbf6 50%);
+    --wp--preset--gradient--hard-diagonal-inverted: linear-gradient(to top left, #b6cdd7 49.9%, #fafbf6 50%);
+    --wp--preset--gradient--hard-horizontal: linear-gradient(to bottom, #b6cdd7 50%, #fafbf6 50%);
+    --wp--preset--gradient--hard-horizontal-inverted: linear-gradient(to top, #b6cdd7 50%, #fafbf6 50%);
+    --wp--preset--gradient--diagonal: linear-gradient(to bottom right, #b6cdd7, #fafbf6);
+    --wp--preset--gradient--diagonal-inverted: linear-gradient(to top left, #b6cdd7, #fafbf6);
+    --wp--preset--gradient--horizontal: linear-gradient(to bottom, #b6cdd7, #fafbf6);
+    --wp--preset--gradient--horizontal-inverted: linear-gradient(to top, #b6cdd7, #fafbf6);
+    --wp--preset--gradient--stripe: linear-gradient(to bottom, transparent 20%, #b6cdd7 20%, #b6cdd7 80%, transparent 80%);
+    --wp--preset--font-size--small: 16px;
+    --wp--preset--font-size--medium: 20px;
+    --wp--preset--font-size--large: 24px;
+    --wp--preset--font-size--x-large: 42px;
+    --wp--preset--font-size--tiny: 14px;
+Show All Properties (74 more)
+}
+:root {
+    --wp--preset--font-size--normal: 16px;
+    --wp--preset--font-size--huge: 42px;
+}
+html, body, div, header, nav, article, figure, hr, main, section, footer {
+    max-width: none;
+}
+@media only screen and (min-width: 482px)
+html {
+    font-size: var(--global--font-size-root);
+}
+html {
+    font-size: calc(var(--global--font-size-root)/var(--global--font-size-ratio));
+    font-family: var(--global--font-secondary);
+    line-height: var(--global--line-height-body);
+}
+html {
+    box-sizing: border-box;
+}
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, form, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+html[Attributes Style] {
+    -webkit-locale: "ja";
+}
+user agent stylesheet
+html {
+    display: block;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+::selection {
+    background-color: var(--global--color-text-selection);
+}
