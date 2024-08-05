@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
 
@@ -14,7 +16,6 @@ h1,h2,h3,h4,h5,h6{font-size:100%;}
 img,abbr,acronym,fieldset{border:0;}
 
 body{
-	font-family: sans-serif;
 	font: 14px/1.9 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
 	font-weight: 300;
 	-webkit-text-size-adjust:100%;
@@ -50,21 +51,31 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 #mainImg{
-	text-align : center
 	position: relative;
-        overflow: hidden;
-        width: 100%;
-        height: 528px;
+  overflow: hidden;
+  width: 100%;
+  height: 528px;
 }
 
 #mainImg img{
-	text-align : center
-	width: 100%;
-    　　height: 100%;
-	margin: auto;
-        display: block;
-   　　
-  
+	position: absolute;
+  left: 50%;
+	max-width: 1280px;
+  width: 1280px;
+  height: 528px;
+  margin-left: -640px;
+}
+
+
+
+
+/* フッター
+------------------------------------------------------------*/
+#footer{
+	clear: both;
+	padding: 50px 10px 50px 0;
+	text-align: center;
+	font-size: 12px;
 }
 
 
@@ -73,19 +84,19 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 
 img{
 	max-width: 100%;
-	height: 528px;
+	height: auto;
 }
 
 section{
 	clear:both;
-	padding-top: 10px;
+	padding-top: 70px;
 }
 
 section h2{
-	font-family: sans-serif;
+	font-family: 'Pacifico', cursive;
 	width: 60%;
 	margin: 0 auto 40px;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight:normal;
 	text-align: center;
 	background: url(../images/borderBlack.png) repeat-x 0 50%;
@@ -104,12 +115,9 @@ section h2 span {
 }
 
 .innerS{
-	font-family: sans-serif;
 	width: 60%;
 	margin: 0 auto;
 	padding-bottom: 80px;
-	padding-left: 20px;
-	padding-right: 20px;
 }
 
 
@@ -122,13 +130,15 @@ section h2 span {
 }
 
 .iconimg img{
-	width: 50%;
+	width: 30%;
   margin: auto;
   display: block;
 	
 }
 
 /* SEC02 Gallery
+
+
 ------------------------------------------------------------*/
 #sec02{
 	padding: 0 !important;
@@ -149,13 +159,15 @@ section h2 span {
 	height: auto;
 }
 
+
+
 .slider {
 	width: 300px;
     height: 700px;
     overflow: hidden;
     margin: 0 auto;
-  
-  }
+
+}
   .slider-item {
 	width: 300px;
 	float: left;
@@ -168,7 +180,9 @@ section h2 span {
 	width: 300%;
 	animation: slider 10s infinite ease;
   }
+
   
+
   @keyframes slider {
 	  0% {
 	  transform: translateX(0);
@@ -186,7 +200,13 @@ section h2 span {
 
 
 /* SEC03 PROJECT
+
+
 ------------------------------------------------------------*/
+
+
+
+
 #sec03 img{
 	width: 100%;
 	margin-bottom: 30px;
@@ -261,14 +281,6 @@ section h2 span {
 	border: 0;
 }
 
-/* フッター
-------------------------------------------------------------*/
-#footer{
-	clear: both;
-	padding: 50px 10px 50px 0;
-	text-align: center;
-	font-size: 12px;
-}
 
 
 /* RESPONSIVE 設定
